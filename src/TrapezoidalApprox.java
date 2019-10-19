@@ -8,8 +8,8 @@ public class TrapezoidalApprox {
         double xVal;
         double yVal;
 
-        /* the for loop had to be tweaked here. delta x is smaller by a factor of 100 than in midpoint approx. n_max is
-        1000000 - 1. */
+        /* the for loop had to be tweaked here. delta x is smaller by a factor of 100 than in midpoint
+        approx. n_max is 1000000 - 1. */
         for(int n = 1; n < 1000000; n++)
         {
             // x_1 is -0.999994
